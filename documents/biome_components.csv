@@ -1,0 +1,26 @@
+Product,Rated VDC,Max mA
+ESP8266,5,240 (hour)               2800mAh over a day
+DHT11,5,2.5 (Active time 1 second) 3600mAh over a day.
+TZT,5,15 (hour)                    180mAh
+DS18B20,5,4 (Sink Current) 1.5 (When Active) 7920mAh over a day with sink every time.
+CSMSV2,5,
+5V Relay,5, 3.8 (maybe 20 switches a day) 200mAh 
+Solenoid,12,
+
+BMS
+Charge and Discharge Capacity of 2A
+
+LM2596
+Discharge Capacity of 3A (will be @5V)
+
+Other Step Down
+Discharge Capacity of ?
+
+Solar Controller
+Constant current charging current is set by external resistor Default 2A (3A / 4A / 5A)
+
+Battery Capacity
+4S 18650
+
+Solar Charge Ability
+12V 4W

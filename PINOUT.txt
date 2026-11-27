@@ -1,0 +1,35 @@
+# PINOUT
+
+           Reset -1 | 16- TX (On Board)
+  (CSMS-V2.0) A0 -2 | 15- RX (On Board)
+   (On Board) EN -3 | 14- IO5 (LDR)
+     (Wake) IO16 -4 | 13- IO4 
+ (5V Relay) IO14 -5 | 12- IO0 (Boot)
+  (DS18B20) IO12 -6 | 11- IO2 (Boot)
+    (DHT11) IO13 -7 | 10- IO15 (Boot)
+            3.3V -8 | 9-- GND (On Board)
+
+                On Board
+                   | 3.3 to 5 VDC
+                   | GND
+                   | TX
+                   | RX
+                   | Reset
+              UART | PROGRAM
+
+
+###############################
+# Hive Biome Website Database #
+###############################
+
+I have to get a new ESP8266 and change the timing to get better hours.
+
+
+Future Updates
+- Custom PCB.
+- 2nd Case Design.
+- Website SSL.
+- Device Login.
+- SQL Queries based on Device ID.
+- Device Seed Database.
+- Device Garden Management

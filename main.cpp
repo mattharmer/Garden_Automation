@@ -9,10 +9,10 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-const char* ssid     = "DODO-8D7F";
-const char* password = "5YGRMXGMFR";
-const char* serverName = "http://mattharmer.me/post-sensor.php"; //Your Domain name with URL path or IP address with path
-String apiKeyValue = "tPmAT5Ab3j7F9"; // If you change the apiKeyValue value, the PHP file /esp-post-data.php also needs to have the same key
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+const char* serverName = "https://YOUR_SERVER_HOST/post-sensor.php"; //Your Domain name with URL path or IP address with path
+String apiKeyValue = "YOUR_API_KEY"; // If you change the apiKeyValue value, the PHP file /esp-post-data.php also needs to have the same key
 
 // VARIABLES
 int valueCount = 120;        // How many values to collect. Should be every hour.

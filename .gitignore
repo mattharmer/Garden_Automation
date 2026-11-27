@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.blend1
+fp-info-cache
+*-backups/
+.env

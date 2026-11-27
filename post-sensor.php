@@ -3,14 +3,14 @@
 $servername = "localhost";
 
 // REPLACE with your Database name
-$dbname = "mattharmer_garden";
+$dbname = "YOUR_DB_NAME";
 // REPLACE with Database user
-$username = "mattharmer_hiveadmin";
+$username = "YOUR_DB_USER";
 // REPLACE with Database user password
-$password = "y^=9B!j3b(5w";
+$password = "YOUR_DB_PASSWORD";
 
 // Keep this API Key value to be compatible with the ESP32 code provided in the project page. If you change this value, the ESP32 sketch needs to match
-$api_key_value = "tPmAT5Ab3j7F9";
+$api_key_value = "YOUR_API_KEY";
 
 $api_key = $valueDHT11t = $valueDHT11h = $valueTZT  = $valueCSMSV2 = $valueDS18B20 = $valueRELAY01 = "";
 
