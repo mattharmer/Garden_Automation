@@ -31,7 +31,6 @@ The original firmware and PHP on this repository had Wi-Fi, database and API cre
 | --- | --- |
 | ![Controller case](images/controller-case-inside.jpg) | Electronics in the 3D-printed orange controller case |
 | ![Bench setup](images/bench-setup.jpg) | Bench build: case, solar panel, cells, relay, pump wiring and sensors |
-| ![Concept](images/hive-garden-concept.png) | Hive Garden / Hive Biome naming concept |
 
 Part close-ups (buck converter, BMS board) are in `images/parts/`. Module reference photos and STLs are in `design/`.
 
